@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Анатолий, резюме">
+    <meta name="description" content="Это сайт резюме Анатолия">
+    <title>Анатолий резюме</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box">        
+            <div class="info">
+                <div class="img_avatar">
+                    <img src="/HTML/Anatoly-resume/Img/1.jpg" width="250" alt="Фото">
+                </div>                
+
+                <div class="info-text">                
+                    <h1>Анатолий</h1>
+                    <br>
+                    <p>Сейчас на пенсии.</p> 
+                    <br>
+                    <p>До этого работал инженером электроником.</p>
+                    <br>
+                    <p>Помимо работы с железом 
+                        доводилось разрабатывать на 
+                        <strong>Visual Basic</strong>
+                        в рамках 
+                        <strong>Access</strong>
+                        приложения 
+                        <em>для баз данных</em> 
+                        с запросами на 
+                        <strong><em>SQL</em></strong>.
+                    </p>   
+                </div>              
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="card-1">
+                <h2>Список приложений:</h2>
+                <p>                
+                    <a href="https://ru.wikipedia.org/wiki/Microsoft_Access" 
+                    target="_blank">Access</a>
+                </p>            
+                <p>
+                    <a href="https://ru.wikipedia.org/wiki/SQL" 
+                    target="_blank">SQL</a>
+                </p>                                    
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="card-2">
+                <h2>Этапы разработки баз данных</h2>
+
+                <ol class="ol">
+                    <li>Изучение сущности</li>
+                    <li>Выделение атрибутов</li>
+                    <li>Нормализация</li>
+                    <li>Разработка интерфейса</li>
+                    <li>Создание запросов SQL</li>
+                    <li>Отладка</li>
+                </ol>
+            </div>    
+        </div>
+            
+        <div class="box">
+            <div class="card-3">
+                <h2>Созданные БД</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Заказчик</th>
+                            <th>Примечания</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Рецептура блюд</td>
+                            <td>Пельменная</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Учет сборок </td>
+                            <td>ООО Квадрум</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Ветераны</td>
+                            <td>Администрация области</td>
+                            <td></td>
+                        </tr>
+                    </tbody>       
+                </table>
+            </div>
+        </div>
+
+        <div class="box">        
+            <div class="card-4">
+                    
+                <form action="/" class="form-in">
+                    <h2>Связаться со мной</h2>
+                    <div class="box">                    
+                        <div class="form-row"> 
+                            <div class="form-group">
+                                <label for="name">Ваше имя:</label>
+                                <input type="text" id="name" placeholder="Введите имя">  
+                            </div>                   
+                            <div class="form-group">
+                                <label for="email">Ваш e-mail:</label>
+                                <input type="email" id="email" placeholder="Введите e-mail">     
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Ваше сообщение</label>
+                            <textarea id="message" cols="33" rows="5" 
+                                placeholder="Введите сообщение...">
+                            </textarea>       
+                        </div>
+                    </div>
+                    
+                    <input type="submit" id="Отправить" class="btn"> 
+                </form>                
+            </div>
+        </div>
+    </div>         
+</body>
+</html>
